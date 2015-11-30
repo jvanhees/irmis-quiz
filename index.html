@@ -1,0 +1,22 @@
+<!doctype html>
+<html ng-app="quiz">
+<head>
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+	
+	<script src="config/app.js"></script>
+	<script src="config/state.js"></script>
+	
+	<script src="components/home/home.ctrl.js"></script>
+	<script src="components/quiz/quiz.ctrl.js"></script>
+	<script src="components/quiz/question.ctrl.js"></script>
+</head>
+<body>
+	<div class="header">
+		<a ui-sref="home">Home</a>
+		<a ui-sref="quiz.question({questionNumber: 1})">Start</a>
+	</div>
+	<div ui-view>
+	</div>
+</body>
+</html>

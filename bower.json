@@ -1,0 +1,24 @@
+{
+  "name": "irmis-quiz",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jvanhees/irmis-quiz",
+  "authors": [
+    "Jorick van Hees <j.vanhees@bluebillywig.com>"
+  ],
+  "description": "IRMIS Quiz application",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "appPath": "app",
+  "dependencies": {
+    "bower": "*",
+    "install": "~1.0.4",
+    "angular": "1.4.8",
+    "angular-ui-router": "~0.2.15"
+  }
+}
