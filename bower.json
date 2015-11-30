@@ -19,6 +19,7 @@
     "bower": "*",
     "install": "~1.0.4",
     "angular": "1.4.8",
-    "angular-ui-router": "~0.2.15"
+    "angular-ui-router": "~0.2.15",
+    "normalize-css": "normalize.css#~3.0.3"
   }
 }

@@ -9,14 +9,17 @@
 	
 	<script src="components/home/home.ctrl.js"></script>
 	<script src="components/quiz/quiz.ctrl.js"></script>
-	<script src="components/quiz/question.ctrl.js"></script>
+	<script src="components/finish/finish.ctrl.js"></script>
+	
+	<link rel="stylesheet" href="bower_components/normalize-css/normalize.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="style/main.css" type="text/css" media="screen">
 </head>
 <body>
-	<div class="header">
+	<div id="header">
 		<a ui-sref="home">Home</a>
-		<a ui-sref="quiz.question({questionNumber: 1})">Start</a>
+		<a ui-sref="quiz">Start</a>
 	</div>
-	<div ui-view>
+	<div id="main" ui-view>
 	</div>
 </body>
 </html>

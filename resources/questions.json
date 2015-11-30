@@ -1,0 +1,92 @@
+[
+	{
+		"question": "Due to superstition, what didn't Bjorn Borg do at Wimbledon?",
+		"choices": [
+			{"correct": true, "answer": "shave"},
+			{"correct": false, "answer": "wash"},
+			{"correct": false, "answer": "change his socks"},
+			{"correct": false, "answer": "brush his teeth"}
+		]
+	},
+	{
+		"question": "Countries from which continent boycotted the 1976 summer Olympics in Montreal?",
+		"choices": [
+			{"correct": false, "answer": "Europe"},
+			{"correct": true, "answer": "Africa"},
+			{"correct": false, "answer": "Asia"},
+			{"correct": false, "answer": "South America"}
+		]
+	},
+	{
+		"question": "What is the old name for Sri Lanka?",
+		"choices": [
+			{"correct": false, "answer": "Spice Islands"},
+			{"correct": false, "answer": "Mandalay"},
+			{"correct": true, "answer": "Ceylon"},
+			{"correct": false, "answer": "East Pakistan"}
+		]
+	},
+	{
+		"question": "Karol Wojtyla is better known under which name?",
+		"choices": [
+			{"correct": true, "answer": "Pope John Paul II  "},
+			{"correct": false, "answer": "Liberace"},
+			{"correct": false, "answer": "Carole King"},
+			{"correct": false, "answer": "Santa"}
+		]
+	},
+	{
+		"question": "What was he name of the infamous nuclear reactor in Harrisburg Penn.?",
+		"choices": [
+			{"correct": false, "answer": "1 mile island"},
+			{"correct": true, "answer": "3 mile island"},
+			{"correct": false, "answer": "9 mile creek"},
+			{"correct": false, "answer": "16 mile creek"}
+		]
+	},
+	{
+		"question": "Anna Pavlowa excelled in which of the following?",
+		"choices": [
+			{"correct": true, "answer": "ballet"},
+			{"correct": false, "answer": "chess"},
+			{"correct": false, "answer": "painting"},
+			{"correct": false, "answer": "tennis"}
+		]
+	},
+	{
+		"question": "Which three letters replaced CQD?  ",
+		"choices": [
+			{"correct": true, "answer": "SOS"},
+			{"correct": false, "answer": "KGB"},
+			{"correct": false, "answer": "TNT"},
+			{"correct": false, "answer": "FYI"}
+		]
+	},
+	{
+		"question": "The crown of which New York City landmark was originally built as an airship dock?",
+		"choices": [
+			{"correct": false, "answer": "Chrysler Building"},
+			{"correct": true, "answer": "Empire State Building"},
+			{"correct": false, "answer": "Statue of Liberty"},
+			{"correct": false, "answer": "Trump Tower"}
+		]
+	},
+	{
+		"question": "The Agony and the Ecstasy was a book and film about which man?",
+		"choices": [
+			{"correct": false, "answer": "Churchill"},
+			{"correct": false, "answer": "Jesus"},
+			{"correct": true, "answer": "Michaelangelo"},
+			{"correct": false, "answer": "Marquis de Sade"}
+		]
+	},
+	{
+		"question": "What was the number of the last Apollo mission?",
+		"choices": [
+			{"correct": false, "answer": "13"},
+			{"correct": false, "answer": "14"},
+			{"correct": true, "answer": "17"},
+			{"correct": false, "answer": "22"}
+		]
+	}
+]

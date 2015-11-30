@@ -1,5 +1,14 @@
 <h1>Quiz</h1>
-
-<div ui-view>
-	
+<div class="counter-container">
+	<span class="correct-counter">Correct: {{ correct }}</span>
+	<span class="correct-counter">Wrong: {{ wrong }}</span>
+</div>
+<div>
+	<h2>Question {{ count + 1 }}</h2>
+	<p class="question">{{ question.question }}</p>
+	<div class="answer-container cf">
+		<a class="answer" ng-repeat="choice in question.choices" ng-click="selectAnswer(choice)">
+			{{ choice.answer }}
+		</a>
+	</div>
 </div>

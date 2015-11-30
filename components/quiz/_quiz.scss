@@ -1,0 +1,22 @@
+.question {
+	text-align: center;
+}
+
+.answer {
+	display: block;
+	padding: 20px;
+	margin: 1%;
+	background-color: $blue;
+	color: $white;
+	width: 48%;
+	float: left;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: bold;
+	border-radius: 2px;
+	cursor: pointer;
+	transition: background-color .2s;
+	&:hover {
+		background-color: lighten($blue, 10%);
+	};
+}
