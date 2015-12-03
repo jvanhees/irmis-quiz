@@ -88,5 +88,896 @@
 			{"correct": true, "answer": "17"},
 			{"correct": false, "answer": "22"}
 		]
+	},
+	{
+		"question": "Due to superstition, what didn't Bjorn Borg do at Wimbledon?",
+		"choices": [
+			{"correct": false, "answer": "shave"},
+			{"correct": false, "answer": "wash"},
+			{"correct": false, "answer": "change his socks"},
+			{"correct": false, "answer": "brush his teeth"}
+		]
+	},
+	{
+		"question": "Welk speelgoed werd uitgevonden door Ruth Handler?",
+		"choices": [
+			{"correct": false, "answer": "de legoblokken"},
+			{"correct": true, "answer": "de barbiepop"},
+			{"correct": false, "answer": "het spel Monopoly"}
+		]
+	},
+	{
+		"question": "In welk land werd Che Guevara in 1967 door regeringstroepen gedood?",
+		"choices": [
+			{"correct": false, "answer": "in Mexico"},
+			{"correct": false, "answer": "in Cuba"},
+			{"correct": true, "answer": "in Bolivia"}
+		]
+	},
+	{
+		"question": "Wat bestond nog niet tijdens de Eerste Wereldoorlog?",
+		"choices": [
+			{"correct": true, "answer": "het parfum Chanel no 5"},
+			{"correct": false, "answer": "het bakeliet"},
+			{"correct": false, "answer": "airconditioning"}
+		]
+	},
+	{
+		"question": "Welk woord is geen synoniem van de andere twee?",
+		"choices": [
+			{"correct": false, "answer": " lokaaltrein"},
+			{"correct": false, "answer": "omnibus"},
+			{"correct": true, "answer": "encyclopedie"}
+		]
+	},
+	{
+		"question": "Welk van volgende bekende personen is geboren en gestorven in hetzelfde land?",
+		"choices": [
+			{"correct": false, "answer": "Pater Damiaan"},
+			{"correct": false, "answer": "Koning Boudewijn"},
+			{"correct": true, "answer": "Elvis Presley"}
+		]
+	},
+
+	{
+		"question": "Welke Senegalese zangeres had in 1998 een zomerhit met het nummer “Pata Pata”?",
+		"choices": [
+			{"correct": true, "answer": "Couamba Gawlo"},
+			{"correct": false, "answer": "Sandra Calderone"},
+			{"correct": false, "answer": "Neneh Cherry"}
+		]
+	},
+	{
+		"question": "Welke van volgende steden ligt het dichtst bij Kaap Hoorn?",
+		"choices": [
+			{"correct": false, "answer": "Kaapstad"},
+			{"correct": true, "answer": "Ushuaia"},
+			{"correct": false, "answer": "Buenos Aires"}
+		]
+	},
+	{
+		"question": "Wat is de familienaam van het nieuwe K3-lid Josje?",
+		"choices": [
+			{"correct": true, "answer": "Huisman"},
+			{"correct": false, "answer": "Sergeant"},
+			{"correct": false, "answer": "De jaeger"}
+		]
+	},
+	{
+		"question": "Hoe heet het meisje in de zomerhit van Tom Waes “Dos Cervezas”?",
+		"choices": [
+			{"correct": false, "answer": "Maria"},
+			{"correct": true, "answer": "Conchita"},
+			{"correct": false, "answer": "Alexandra"}
+		]
+	},
+	{
+		"question": "In welke sport gebruikt men een dol?",
+		"choices": [
+			{"correct": false, "answer": "in het snooker"},
+			{"correct": true, "answer": "in het roeien"},
+			{"correct": false, "answer": "in het golfen"}
+		]
+	},
+	{
+		"question": "Waar gebruikt men een AAM-wapen?",
+		"choices": [
+			{"correct": false, "answer": "onder water"},
+			{"correct": true, "answer": "in de lucht"},
+			{"correct": false, "answer": "op de grond"}
+		]
+	},
+	{
+		"question": "De massa van onze maan, bedraagt … van de massa van de aarde.",
+		"choices": [
+			{"correct": false, "answer": "1/10"},
+			{"correct": true, "answer": "1/81"},
+			{"correct": false, "answer": "1/256"}
+		]
+	},
+	{
+		"question": "Hoeveel punten is een koka in het judo?",
+		"choices": [
+			{"correct": false, "answer": "1 punt"},
+			{"correct": true, "answer": "3 punten"},
+			{"correct": false, "answer": "5 punten"}
+		]
+	},
+	{
+		"question": "Welk van volgende woorden is GEEN uitheems woord?",
+		"choices": [
+			{"correct": false, "answer": "computer"},
+			{"correct": false, "answer": "baby"},
+			{"correct": false, "answer": "vakantie"},
+			{"correct": true, "answer": "kasteel"}
+		]
+	},
+	{
+		"question": "Welk van volgende nummers is NIET van de Vlaamse groep Stash?",
+		"choices": [
+			{"correct": false, "answer": "Sadness"},
+			{"correct": false, "answer": "I need a woman"},
+			{"correct": true, "answer": "The ideal crash"},
+			{"correct": false, "answer": "Fading out"}
+		]
+	},
+	{
+		"question": "Wie was de enige wereldkampioen Formule 1 die met zijn eigen auto de titel won?",
+		"choices": [
+			{"correct": false, "answer": "Frank Williams"},
+			{"correct": true, "answer": "Jack Brabham"},
+			{"correct": false, "answer": "Enzo Ferrari"}
+		]
+	},
+	{
+		"question": "Tot welke categorie behoort de wiskunde?",
+		"choices": [
+			{"correct": false, "answer": "alfawetenschappen"},
+			{"correct": true, "answer": "bètawetenschappen"},
+			{"correct": false, "answer": "gammawetenschappen"}
+		]
+	},
+	{
+		"question": "Welke ingelegde groenten vind je niet in pickles?",
+		"choices": [
+			{"correct": false, "answer": "zilveruitjes"},
+			{"correct": false, "answer": "bloemkool"},
+			{"correct": true, "answer": "bonen"}
+		]
+	},
+	{
+		"question": "In welke Duitse stad werd in 1901 reeds een metrolijn geopend?",
+		"choices": [
+			{"correct": true, "answer": "Wuppertal"},
+			{"correct": false, "answer": "Hamburg"},
+			{"correct": false, "answer": "Berlijn"}
+		]
+	},
+	{
+		"question": "In welke stripreeks dook Jean-Pierre van Rossum verschillende keren op?",
+		"choices": [
+			{"correct": false, "answer": "Kuifje"},
+			{"correct": false, "answer": "Suske en Wiske"},
+			{"correct": true, "answer": "Nero"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Welke Belgische voetbalploeg zakte in het allereerste seizoen 1895/1896 naar de tweede klasse?",
+
+		"choices": [
+			{"correct": false, "answer": "Anderlecht"},
+			{"correct": false, "answer": "Standard"},
+			{"correct": true, "answer": "Club Brugge"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Welk appelras is ook de naam van een gitaarvirtuoos?",
+
+		"choices": [
+			{"correct": true, "answer": "Santana"},
+			{"correct": false, "answer": "Clapton"},
+			{"correct": false, "answer": "Cooder"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Waarvan is het woord winkel afkomstig?",
+
+		"choices": [
+			{"correct": false, "answer": "van winst"},
+			{"correct": true, "answer": "van hoek"},
+			{"correct": false, "answer": "van wonen"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Hoeveel Friese Elfstedentochten werden er in de 20 ste Eeuw gehouden?",
+
+		"choices": [
+			{"correct": false, "answer": "10"},
+			{"correct": true, "answer": "15"},
+			{"correct": false, "answer": "20"},
+			{"correct": false, "answer": "25"}
+
+		]
+
+	},
+
+	{
+
+		"question": "In welk Bijbels verhaal verandert een vrouw in een zoutpilaar?",
+
+		"choices": [
+			{"correct": false, "answer": "de misdadige wijnbouwers"},
+			{"correct": false, "answer": "de parabel van de zaaier"},
+			{"correct": true, "answer": "het verhaal van Lot"}
+
+		]
+
+	},
+
+	{
+
+		"question": "In het Grieks, het Perzisch en het Arabisch wordt de sinaasappel genoemd naar een land. Welk land?",
+
+		"choices": [
+			{"correct": true, "answer": "Portugal"},
+			{"correct": false, "answer": "Spanje"},
+			{"correct": false, "answer": "Oman"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Welke vlag wappert er op het middelste paviljoen van Buckingham Palace als de Britse Koningin er niet is? ",
+
+		"choices": [
+			{"correct": false, "answer": "Union Jack"},
+			{"correct": false, "answer": "Koninklijke Standaard"},
+			{"correct": true, "answer": "Vlag van Wales"},
+			{"correct": true, "answer": "Er hangt geen vlag"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Welk personage uit de serie “The A-team” probeert voortdurend vrouwen te versieren?",
+
+		"choices": [
+			{"correct": false, "answer": "Hannibal"},
+			{"correct": false, "answer": "B.A."},
+			{"correct": true, "answer": "Face"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Welke stad en haar fiesta zette Ernest Hemingway op de kaart met zijn roman “The sun also rises?",
+
+		"choices": [
+			{"correct": false, "answer": "Portofino"},
+			{"correct": false, "answer": "Havana"},
+			{"correct": true, "answer": "Pamplona"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Welke moskee in Istanbul heeft 6 minaretten?",
+
+		"choices": [
+			{"correct": false, "answer": "Aya Sophia"},
+			{"correct": true, "answer": "Blauwe Moskee"},
+			{"correct": false, "answer": "Fatih Moskee"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Hoe heette de code die de Duitsers gebruikten tijdens de Tweede Wereldoorlog?",
+
+		"choices": [
+			{"correct": true, "answer": "Enigmacode"},
+			{"correct": false, "answer": "Tiltmancode"},
+			{"correct": false, "answer": "Von Schlieffencodee"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Hoe heet de politieke partij van de Israëlische premier Ehud Olmert?",
+
+		"choices": [
+			{"correct": false, "answer": "Likoedpartij"},
+			{"correct": false, "answer": "Avoda partij"},
+			{"correct": true, "answer": "Kadimapartij"}
+
+		]
+
+	},
+
+	{
+
+		"question": "In welke plopfilm, eet kabouter Lui een magische bes waardoor hij zo groot wordt als de mensen?",
+
+		"choices": [
+			{"correct": true, "answer": "Plop in de stad"},
+			{"correct": false, "answer": "Plop in de wolken"},
+			{"correct": false, "answer": "Plop en kwispel"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Hoe heet men het visuele effect waarbij een afbeelding een verkleinde versie van zichzelf bevat, voor de verkleinde afbeelding geldt weer hetzelfde, …?",
+
+		"choices": [
+			{"correct": false, "answer": "Nestlé-effect"},
+			{"correct": false, "answer": "Milka-effect"},
+			{"correct": true, "answer": "Droste-effect"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Wie van de volgende vier is geen van de drie hoofdpersonages uit de Nederlandse serie ‘Single’?",
+
+		"choices": [
+			{"correct": false, "answer": "Stella"},
+			{"correct": false, "answer": "Fatima"},
+			{"correct": true, "answer": "Erika"},
+			{"correct": false, "answer": "Nienke"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Welke chemische stof die uiterst giftig is, ruikt naar amandelen?",
+
+		"choices": [
+			{"correct": false, "answer": "azijnzuur"},
+			{"correct": true, "answer": "blauwzuur"},
+			{"correct": false, "answer": "ammoniak"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Welk instrument bespeelde Tony Chapman in de beginjaren van “The Rolling Stones”?",
+
+		"choices": [
+			{"correct": true, "answer": "drums"},
+			{"correct": false, "answer": "piano"},
+			{"correct": false, "answer": "basgitaar"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Welk dier is het symbool de Amerikaanse Republikeinse Partij?",
+
+		"choices": [
+			{"correct": false, "answer": "de arend"},
+			{"correct": false, "answer": "de condor"},
+			{"correct": true, "answer": "de olifant"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Welk woord vervolledigt volgende rij? Je kan kiezen uit: DRIE EENHEID KOGEL LIJKBLEEK NEGEN NADEN EERST ?",
+
+		"choices": [
+			{"correct": true, "answer": "TOETJE"},
+			{"correct": false, "answer": "STER"},
+			{"correct": false, "answer": "VIER"},
+			{"correct": false, "answer": "KONIJN"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Welke Amerikaanse uitvinder van een productieproces van een vroegere versie van oploskoffie werd in Kortrijk geboren?",
+
+		"choices": [
+			{"correct": false, "answer": "Bill Clinton"},
+			{"correct": true, "answer": "George Washington"},
+			{"correct": false, "answer": "John Kennedy"}
+
+		]
+
+	},
+
+	{
+
+		"question": "In welke Duitse stad kan je het museum “Beatlemania” bezoeken?",
+
+		"choices": [
+			{"correct": false, "answer": "Berlijn"},
+			{"correct": false, "answer": "Bonn"},
+			{"correct": true, "answer": "Hamburg"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Wat is de naam van het zeilschip waarmee de Nederlandse Laura Dekker in 2010 op een reis rond de wereld vertrok?",
+
+		"choices": [
+			{"correct": true, "answer": "Guppy"},
+			{"correct": false, "answer": "Droopy"},
+			{"correct": false, "answer": "Happy"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Waaraan is iemand die lijdt aan tanorexia verslaafd?",
+
+		"choices": [
+			{"correct": false, "answer": "aan chocolade"},
+			{"correct": false, "answer": "aan seks"},
+			{"correct": true, "answer": "aan zonnen"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Welke Australische stad is niet genoemd naar een Brits politicus?",
+
+		"choices": [
+			{"correct": true, "answer": "Canberra"},
+			{"correct": false, "answer": "Sydney"},
+			{"correct": false, "answer": "Melbourne"}
+
+		]
+
+	},
+
+	{
+
+		"question": " Van welke stad werd Ahmed Aboutaleb in 2008 de nieuwe burgemeester?",
+
+		"choices": [
+			{"correct": false, "answer": "New York"},
+			{"correct": false, "answer": "London"},
+			{"correct": true, "answer": "Rotterdam"},
+			{"correct": false, "answer": "Marseille"}
+
+		]
+
+	},
+
+	{
+
+		"question": " Hoe heet het radiofeuilleton dat gebaseerd is op de serie Witse?",
+
+		"choices": [
+			{"correct": false, "answer": "Witse"},
+			{"correct": true, "answer": "Dams en Van Deun"},
+			{"correct": false, "answer": "Sam en Dams"},
+			{"correct": false, "answer": "Commissaris Witse"}
+
+		]
+
+	},
+
+	{
+
+		"question": " Wat werd op 31 december 1472 verboden in Amsterdam?",
+
+		"choices": [
+			{"correct": false, "answer": "vuurwerk af te schieten"},
+			{"correct": false, "answer": "te kussen in het openbaar"},
+			{"correct": true, "answer": "met sneeuwballen te gooien"}
+
+		]
+
+	},
+
+	{
+
+		"question": " Welke Franse auteur had de bijnaam “Le Castor”?",
+
+		"choices": [
+			{"correct": false, "answer": "Albert Camus"},
+			{"correct": false, "answer": "Victor Hugo"},
+			{"correct": true, "answer": "Simone de Beauvoir"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Welk dier bedoelt men met een Kaapse ezel?",
+
+		"choices": [
+			{"correct": true, "answer": "een zebra"},
+			{"correct": false, "answer": "een steenbok"},
+			{"correct": false, "answer": "een aap"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Wie gebruikt er een ferula?",
+
+		"choices": [
+			{"correct": false, "answer": "De duivel"},
+			{"correct": true, "answer": "De Paus"},
+			{"correct": false, "answer": "De beul"}
+
+		]
+
+	},
+
+	{
+
+		"question": "In welk land wordt de inlandse bevolking “bokken” genoemd?",
+
+		"choices": [
+			{"correct": false, "answer": "België"},
+			{"correct": false, "answer": "Zuid-Afrika"},
+			{"correct": true, "answer": "Suriname"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Waarvan is volgens Van Dale het woord wewi een verkorte schrijfwijze?",
+
+		"choices": [
+			{"correct": false, "answer": "werkwinkel"},
+			{"correct": false, "answer": "wereldwijd"},
+			{"correct": true, "answer": "wetenschapswinkel"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Van welk dier is reuzel het vet?",
+
+		"choices": [
+			{"correct": false, "answer": "koe"},
+			{"correct": true, "answer": "varken"},
+			{"correct": false, "answer": "paard"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Hoe heet men “a deacon” in het Nederlands?",
+
+		"choices": [
+			{"correct": false, "answer": "een dominee"},
+			{"correct": true, "answer": "een diaken"},
+			{"correct": false, "answer": "een koster"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Welke Belgische Koning had de bijnaam Cleopold?",
+
+		"choices": [
+			{"correct": false, "answer": "Leopold I"},
+			{"correct": true, "answer": "Leopold II"},
+			{"correct": false, "answer": "Albert 1"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Waar bevindt zich de driehoekszenuw of nervus trigeminus?",
+
+		"choices": [
+			{"correct": true, "answer": "in het aangezicht"},
+			{"correct": false, "answer": "in het hart"},
+			{"correct": false, "answer": "in de handen"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Hoe schiep de oppergod Zeus, Prometheus?",
+
+		"choices": [
+			{"correct": false, "answer": "uit het vuur van de hel"},
+			{"correct": false, "answer": "uit de zonnestralen"},
+			{"correct": true, "answer": "uit het slijk der aarde"}
+
+		]
+
+	},
+
+	{
+
+		"question": "In welk land werd Greenpeace opgericht?",
+
+		"choices": [
+			{"correct": false, "answer": "Nederland"},
+			{"correct": true, "answer": "Canada"},
+			{"correct": false, "answer": "Australië"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Hoeveel atomen waterstof zitten er in één molecule fosforzuur?",
+
+		"choices": [
+			{"correct": false, "answer": "1"},
+			{"correct": false, "answer": "2"},
+			{"correct": true, "answer": "3"}
+
+		]
+
+	},
+
+	{
+
+		"question": "",
+
+		"choices": [
+			{"correct": false, "answer": ""},
+			{"correct": false, "answer": ""},
+			{"correct": false, "answer": ""}
+
+		]
+
+	},
+
+	{
+
+		"question": "In welke stad speelde de Eén-serie “Sedes en Belli” zich hoofdzakelijk af?",
+
+		"choices": [
+			{"correct": false, "answer": "Gent"},
+			{"correct": true, "answer": "Oostende"},
+			{"correct": false, "answer": "Antwerpen"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Indien in een snookerframe geen enkele fout wordt gemaakt waarbij strafpunten aan de tegenstander worden gegeven, welke framescore is dan onmogelijk?",
+
+		"choices": [
+			{"correct": false, "answer": "50-76"},
+			{"correct": true, "answer": "85-65"},
+			{"correct": false, "answer": "122-22"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Welk van volgende hits is niet van Salvatore Adamo?",
+
+		"choices": [
+			{"correct": false, "answer": "Tombe la Neige"},
+			{"correct": false, "answer": "La Nuit"},
+			{"correct": true, "answer": "La Loi d’Amour"}
+
+		]
+
+	},
+
+	{
+
+		"question": "",
+
+		"choices": [
+			{"correct": false, "answer": ""},
+			{"correct": false, "answer": ""},
+			{"correct": false, "answer": ""}
+
+		]
+
+	},
+
+	{
+
+		"question": "Bij de bereiding van welke stof blijft de melasse als afval over ?",
+
+		"choices": [
+			{"correct": true, "answer": "suiker"},
+			{"correct": false, "answer": "margarine"},
+			{"correct": false, "answer": "vlas"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Wat betekent de afkorting a.a. op een recept?",
+
+		"choices": [
+			{"correct": true, "answer": "dezelfde hoeveelheid als hierboven genoemd"},
+			{"correct": false, "answer": "alles laten aanbakken"},
+			{"correct": false, "answer": "opgelet voor de vlammen"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Op welke vraag moesten de kapiteins in de finale van het spelprogramma “Wie ben ik?” een antwoord geven?",
+
+		"choices": [
+			{"correct": false, "answer": "Wie ben ik?"},
+			{"correct": false, "answer": "Wat ben ik"},
+			{"correct": true, "answer": "Waar ben ik"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Welke eenheid is gelijk aan 1 Newton per vierkante meter?",
+
+		"choices": [
+			{"correct": true, "answer": "Pascal"},
+			{"correct": false, "answer": "Fortran"},
+			{"correct": false, "answer": "Joule"}
+
+		]
+
+	},
+
+	{
+
+		"question": "In welk werelddeel ligt het Harz-gebergte ?",
+
+		"choices": [
+			{"correct": false, "answer": "Afrika"},
+			{"correct": true, "answer": "Europa"},
+			{"correct": false, "answer": "Amerika"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Waardoor werd de Vlaamse chirurg Jan Palfijn vooral bekend?",
+
+		"choices": [
+			{"correct": true, "answer": "door zijn verlostang"},
+			{"correct": false, "answer": "door zijn vitaminekuur"},
+			{"correct": false, "answer": "door de uitvinding van het gipsverband"}
+
+		]
+
+	},
+
+	{
+
+		"question": "In welke Europese hoofdstad liggen de overblijfselen van het Circus Maximus?",
+
+		"choices": [
+			{"correct": false, "answer": "Poitiers"},
+			{"correct": true, "answer": "Rome"},
+			{"correct": false, "answer": "Orange"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Welke Zee bestaat NIET?",
+
+		"choices": [
+			{"correct": false, "answer": "Weddellzee"},
+			{"correct": false, "answer": "Ross Zee"},
+			{"correct": true, "answer": "Lenin Zee"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Hoeveel blinden houden elkaar vast en trekken elkaar mee in de ondergang in het schilderij “De Blinden” van Pieter Breughel de Oude?",
+
+		"choices": [
+			{"correct": false, "answer": "2"},
+			{"correct": true, "answer": "6"},
+			{"correct": false, "answer": "9"}
+
+		]
+
+	},
+
+	{
+
+		"question": "Welk dier is het symbool van Zuid-Afrika?",
+
+		"choices": [
+			{"correct": false, "answer": "Olifant"},
+			{"correct": false, "answer": "Leeuw"},
+			{"correct": true, "answer": "Springbok"}
+
+		]
+
+	},
+	{
+
+		"question": "Welk van volgende binaire getallen is deelbaar door 3?",
+		"choices": [
+			{"correct": false, "answer": "1011"},
+			{"correct": true, "answer": "1001"},
+			{"correct": false, "answer": "101"}
+		]
 	}
 ]
