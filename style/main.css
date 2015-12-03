@@ -76,4 +76,32 @@ a {
   width: 48%;
   float: left; }
 
+.counter-container {
+  float: right;
+  font-weight: bold;
+  text-align: center; }
+  .counter-container > div {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 2px; }
+    .counter-container > div span {
+      font-size: 2em;
+      display: block;
+      color: #FFF; }
+
+.correct-counter {
+  background-color: #4CAF50;
+  color: #2d682f;
+  margin-right: 5px; }
+
+.wrong-counter {
+  background-color: #B71C1C;
+  color: #5f0e0e; }
+
+h1 {
+  overflow: hidden; }
+
+.feedback-container img {
+  max-width: 100%; }
+
 /*# sourceMappingURL=main.css.map */

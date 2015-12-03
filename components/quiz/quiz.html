@@ -1,14 +1,18 @@
-<h1>Quiz</h1>
 <div class="counter-container">
-	<span class="correct-counter">Correct: {{ correct }}</span>
-	<span class="correct-counter">Wrong: {{ wrong }}</span>
+	<div class="correct-counter">Correct <span class="number">{{ correct }}</span></div><!--
+ --><div class="wrong-counter">Wrong: <span class="number">{{ wrong }}</span></div>
 </div>
-<div>
-	<h2>Question {{ count + 1 }}</h2>
-	<p class="question">{{ question.question }}</p>
-	<div class="answer-container cf">
-		<a class="answer" ng-repeat="choice in question.choices" ng-click="selectAnswer(choice)">
-			{{ choice.answer }}
-		</a>
-	</div>
+<h1>Quiz</h1>
+<h2>Question {{ count + 1 }}</h2>
+<p class="question">{{ question.question }}</p>
+<div class="answer-container cf">
+	<a class="answer" ng-repeat="choice in question.choices" ng-click="selectAnswer(choice)">
+		{{ choice.answer }}
+	</a>
+</div>
+<div class="feedback-container">
+	<img ng-show="feedback == 'none'" src="resources/img/sleepy.png" />
+	<img ng-show="feedback == 'negative'" src="resources/img/sadbird.png" />
+	<img ng-show="feedback == 'positive' && correct <= wrong" src="resources/img/happybird.png" />
+	<img ng-show="feedback == 'positive' && correct > wrong" src="resources/img/extremelyhappybird.png" />
 </div>

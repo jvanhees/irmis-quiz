@@ -6,6 +6,8 @@ quiz.controller('QuizController', ['$scope', '$http', '$state', function($scope,
 	$scope.correct = 0;
 	$scope.wrong = 0;
 	
+	$scope.feedback = 'none';
+	
 	$scope.$watch('count', function(val){
 		$scope.question = $scope.questions[val];
 		if(typeof($scope.question) == 'undefined'){
@@ -39,8 +41,10 @@ quiz.controller('QuizController', ['$scope', '$http', '$state', function($scope,
 		$scope.count++;
 		if(choice.correct){
 			answerCorrect();
+			$scope.feedback = 'positive';
 		} else {
 			answerWrong();
+			$scope.feedback = 'negative';
 		}
 	}
 	

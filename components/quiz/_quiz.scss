@@ -8,3 +8,36 @@
 	width: 48%;
 	float: left;
 }
+
+.counter-container {
+	float: right;
+	font-weight: bold;
+	text-align: center;
+	> div {
+		display: inline-block;
+		padding: 5px 10px;
+		border-radius: 2px;
+		span {
+			font-size: 2em;
+			display: block;
+			color: $white;
+		}
+	}
+}
+.correct-counter {
+	background-color: $green;
+	color: darken($green, 20%);
+	margin-right: 5px;
+}
+.wrong-counter {
+	background-color: $red;
+	color: darken($red, 20%);
+}
+
+h1 {
+	overflow: hidden;
+}
+
+.feedback-container img {
+	max-width: 100%;
+}
