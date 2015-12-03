@@ -1,18 +1,61 @@
-<div class="counter-container">
-	<div class="correct-counter">Correct <span class="number">{{ correct }}</span></div><!--
- --><div class="wrong-counter">Wrong: <span class="number">{{ wrong }}</span></div>
-</div>
-<h1>Quiz</h1>
-<h2>Question {{ count + 1 }}</h2>
-<p class="question">{{ question.question }}</p>
-<div class="answer-container cf">
-	<a class="answer" ng-repeat="choice in question.choices" ng-click="selectAnswer(choice)">
-		{{ choice.answer }}
-	</a>
-</div>
 <div class="feedback-container">
-	<img ng-show="feedback == 'none'" src="resources/img/sleepy.png" />
-	<img ng-show="feedback == 'negative'" src="resources/img/sadbird.png" />
-	<img ng-show="feedback == 'positive' && correct <= wrong" src="resources/img/happybird.png" />
-	<img ng-show="feedback == 'positive' && correct > wrong" src="resources/img/extremelyhappybird.png" />
+	<div ng-if="correctStreak == 1" class="feedback">
+		<img src="resources/img/happybird.png" />
+		<p>Ja, dat klopt helemaal.</p>
+	</div>
+	<div ng-if="correctStreak == 2" class="feedback">
+		<img src="resources/img/reallyhappybird.png" />
+		<p>Top, dat is ook goed!</p>
+	</div>
+	<div ng-if="correctStreak > 2" class="feedback">
+		<img src="resources/img/extremelyhappybird.png" />
+		<p>Weer goed beantwoord. Super! Ga zo door!</p>
+	</div>
+	
+	<!-- Positive -->
+	<div ng-if="wrongStreak == 1 && feedback == 'positive'" class="feedback">
+		<img src="resources/img/neutralbird.png" />
+		<p>Oei, de volgende gaat vast beter.</p>
+	</div>
+	<div ng-if="wrongStreak == 2 && feedback == 'positive'" class="feedback">
+		<img src="resources/img/neutralbird.png" />
+		<p>Geeft niks hoor, kan gebeuren!</p>
+	</div>
+	<div ng-if="wrongStreak > 2 && feedback == 'positive'" class="feedback">
+		<img src="resources/img/neutralbird.png" />
+		<p>Jammer, maar wel volhouden hoor, de volgende vraag weet je vast wel!</p>
+	</div>
+	
+	<!-- Negative -->
+	<div ng-if="wrongStreak == 1 && feedback == 'negative'" class="feedback">
+		<img src="resources/img/sadbird.png" />
+		<p>Oei, dat is fout, let je wel op?</p>
+	</div>
+	<div ng-if="wrongStreak == 2 && feedback == 'negative'" class="feedback">
+		<img src="resources/img/reallysadbird.png" />
+		<p>O nee, dat zijn al twee foute antwoorden achter elkaar!</p>
+	</div>
+	<div ng-if="wrongStreak > 2 && feedback == 'negative'" class="feedback">
+		<img src="resources/img/extremelysadbird.png" />
+		<p>Ai ai ai, het regent foute antwoorden… Zo zak je wel heel hard op het scorebord!</p>
+	</div>
+</div>
+
+<div id="main">
+	<div class="previous-answer" ng-show="correctAnswer">
+		<p>Het goede antwoord was: <strong>{{ correctAnswer }}</strong></p>
+	</div>
+	<div class="counter-container">
+		<div class="correct-counter">Goed <span class="number">{{ correct }}</span></div><!--
+	 --><div ng-show="feedback == 'negative'" class="wrong-counter">Fout <span class="number">{{ wrong }}</span></div>
+	</div>
+	<h1>Vraag {{ count + 1 }}</h1>
+	<p class="question">{{ question.question }}</p>
+	<div class="answer-container cf">
+		<a class="answer" ng-repeat="choice in question.choices" ng-click="selectAnswer(choice)">
+			{{ choice.answer }}
+		</a>
+	</div>
+	<div class="button" id="stop-quiz" ng-click="endQuiz()">Stop de quiz</div>
+	<div class="clear"></div>
 </div>

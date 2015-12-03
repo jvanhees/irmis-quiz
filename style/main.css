@@ -48,6 +48,7 @@ a {
     color: #FFF; }
 
 #main {
+  clear: both;
   max-width: 800px;
   background-color: #FFF;
   margin: 20px auto;
@@ -60,7 +61,6 @@ a {
   background-color: #43C3D1;
   color: #FFF;
   text-align: center;
-  text-transform: capitalize;
   font-weight: bold;
   border-radius: 2px;
   cursor: pointer;
@@ -68,13 +68,17 @@ a {
   .button:hover, .answer:hover {
     background-color: #6cd0db; }
 
+.clear {
+  clear: both; }
+
 .question {
   text-align: center; }
 
 .answer {
   margin: 1%;
   width: 48%;
-  float: left; }
+  float: left;
+  text-transform: capitalize; }
 
 .counter-container {
   float: right;
@@ -101,7 +105,25 @@ a {
 h1 {
   overflow: hidden; }
 
-.feedback-container img {
-  max-width: 100%; }
+.feedback-container {
+  max-width: 800px;
+  margin: 0 auto; }
+  .feedback-container p {
+    background-color: #E8B878;
+    padding: 30px;
+    border-radius: 100px;
+    color: #FFF;
+    font-size: 18px;
+    display: inline-block;
+    width: 50%; }
+  .feedback-container img {
+    width: 40%;
+    vertical-align: middle; }
+
+#stop-quiz {
+  display: inline-block;
+  clear: both;
+  float: right;
+  background-color: #888; }
 
 /*# sourceMappingURL=main.css.map */

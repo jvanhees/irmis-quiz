@@ -7,6 +7,7 @@
 	margin: 1%;
 	width: 48%;
 	float: left;
+	text-transform: capitalize;
 }
 
 .counter-container {
@@ -38,6 +39,27 @@ h1 {
 	overflow: hidden;
 }
 
-.feedback-container img {
-	max-width: 100%;
+.feedback-container {
+	max-width: 800px;
+	margin: 0 auto;
+	p {
+		background-color: #E8B878;
+		padding: 30px;
+		border-radius: 100px;
+		color: #FFF;
+		font-size: 18px;
+		display: inline-block;
+		width: 50%;
+	}
+	img {
+		width: 40%;
+		vertical-align: middle;
+	}
+}
+
+#stop-quiz {
+	display: inline-block;
+	clear: both;
+	float: right;
+	background-color: #888;
 }
