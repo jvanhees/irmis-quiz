@@ -22,7 +22,6 @@ angular.module('quiz')
 			}
 			
 			this.makeRequest('saveQuiz.php', data).then(function successCallback(response) {
-				console.log(response);
 			}, function errorCallback(response) {
 				console.log(response);
 			});
@@ -33,9 +32,7 @@ angular.module('quiz')
 				'sessionId': sessionId,
 				'questions': JSON.stringify(prototypeSurvey),
 			}
-			console.log(data);
 			this.makeRequest('savePrototype.php', data).then(function successCallback(response) {
-				console.log(response);
 			}, function errorCallback(response) {
 				console.log(response);
 			});

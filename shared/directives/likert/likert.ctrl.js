@@ -8,8 +8,6 @@ angular.module('quiz')
 			
 			$scope.value;
 			
-			console.log($scope);
-			
 			$scope.descriptions = [
 				'Helemaal oneens',
 				'Oneens',
