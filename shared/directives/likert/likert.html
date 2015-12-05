@@ -1,0 +1,6 @@
+<div class="likert-container cf">
+	<div class="likert-option" ng-repeat="(key, description) in descriptions">
+		<label for="likert-{{ key }}">{{ description }}</label>
+		<input id="likert-{{ key }}" type="radio" ng-model="$parent.value" value="{{ key }}" />
+	</div>
+</div>

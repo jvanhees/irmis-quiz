@@ -7,16 +7,26 @@
 	<script src="config/app.js"></script>
 	<script src="config/state.js"></script>
 	
+	<script src="shared/services/api.js"></script>
+	
+	<script src="components/header/header.ctrl.js"></script>
 	<script src="components/home/home.ctrl.js"></script>
 	<script src="components/quiz/quiz.ctrl.js"></script>
+	<script src="components/quizsurvey/quizsurvey.ctrl.js"></script>
+	<script src="components/prototype/prototype.ctrl.js"></script>
+	<script src="components/prototypesurvey/prototypesurvey.ctrl.js"></script>
 	<script src="components/finish/finish.ctrl.js"></script>
+
+	<script src="shared/directives/likert/likert.ctrl.js"></script>
+	<script src="shared/directives/likert/likert.js"></script>
 	
 	<link rel="stylesheet" href="bower_components/normalize-css/normalize.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="style/main.css" type="text/css" media="screen">
 </head>
 <body>
-	<div id="header">
-		Feedback research
+	<div id="header" ng-controller="HeaderCtrl">
+		<div class="progress" style="width: {{ progress }};"></div>
+		Voortgang: {{ progress }}
 	</div>
 	<div ui-view>
 	</div>

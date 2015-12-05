@@ -1,3 +1,3 @@
-quiz.controller('FinishController', ['$scope', '$stateParams', '$state', function($scope, $stateParams, $state) {
+quiz.controller('FinishController', ['$scope', '$stateParams', '$state', 'apiService', function($scope, $stateParams, $state, api) {
 	
 }]);

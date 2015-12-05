@@ -1,4 +1,4 @@
-quiz.controller('QuizController', ['$scope', '$http', '$state', function($scope, $http, $state) {
+quiz.controller('QuizController', ['$scope', '$http', '$state', 'apiService', function($scope, $http, $state, api) {
 	
 	$scope.questions;
 	$scope.count = 0;	
@@ -30,8 +30,13 @@ quiz.controller('QuizController', ['$scope', '$http', '$state', function($scope,
 			if(Math.random() > .5){
 				$scope.feedback = 'negative';
 			}
-			console.log("Using "+ $scope.feedback +" feedback.");
+			quiz.feedback = $scope.feedback;
+			createSession();
+			
+			// Shuffle questions and get first 10
 			$scope.questions = shuffle(response.data);
+			$scope.questions = $scope.questions.slice(0, 10);
+			
 			$scope.question = $scope.questions[$scope.count];
 		}, function errorCallback(response) {
 			console.log(response);
@@ -52,7 +57,6 @@ quiz.controller('QuizController', ['$scope', '$http', '$state', function($scope,
 	
 	var getCorrectAnswer = function(question){
 		for (var i = 0; i < question.choices.length; i++) {
-			console.log(question.choices[i]);
 			if(question.choices[i].correct == true){
 				return question.choices[i].answer;
 			}
@@ -70,7 +74,8 @@ quiz.controller('QuizController', ['$scope', '$http', '$state', function($scope,
 	};
 	
 	$scope.endQuiz = function(){
-		$state.go('finish', {'count': $scope.count, 'correct': $scope.correct, 'wrong': $scope.wrong, 'score': $scope.score});
+		api.setQuestions($scope.correct, $scope.wrong);
+		$state.go('quizSurvey', {'count': $scope.count, 'correct': $scope.correct, 'wrong': $scope.wrong, 'score': $scope.score});
 	};
 	
 	var shuffle = function(array) {
@@ -90,6 +95,10 @@ quiz.controller('QuizController', ['$scope', '$http', '$state', function($scope,
 		}
 
 		return array;
+	};
+	
+	var createSession = function(){
+		api.createSession($scope.feedback);
 	};
 	
 	getQuestions();

@@ -51,12 +51,20 @@ a {
 }
 
 #header {
+	position: relative;
 	background-color: $blue;
 	padding: 20px;
 	color: #FFF;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 	a {
 		color: #FFF;
+	}
+	.progress {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		background-color: darken($blue, 20%);
 	}
 }
 
@@ -79,9 +87,14 @@ a {
 	border-radius: 2px;
 	cursor: pointer;
 	transition: background-color .2s;
+	border: none;
 	&:hover {
 		background-color: lighten($blue, 10%);
 	};
+}
+
+input[type="submit"], input[type="button"] {
+	@extend .button;
 }
 
 .clear {
@@ -90,3 +103,5 @@ a {
 
 @import '../components/home/home';
 @import '../components/quiz/quiz';
+@import '../components/quizsurvey/quizsurvey';
+@import '../shared/directives/likert/likert';

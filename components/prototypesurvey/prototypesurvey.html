@@ -1,0 +1,17 @@
+<div id="main">
+	<h1>Survey</h1>
+
+	<p>Onderstaande vragen zijn gebaseerd op het fictieve gebruik van de app Quietude, welke was te zien in het voorgaande filmpje. De resultaten worden anoniem opgeslagen en zal alleen voor onderzoek worden gebruikt.</p>
+	<form name="prototypeSurvey" ng-submit="submitPrototypeSurvey()" class="cf">
+		<p>De vogel zou mij motiveren om mijn slaapritme aan te passen.</p>
+		<likert ng-model="prototypeSurveyAnswers.q1"></likert>
+		
+		<p>Het verzorgen van de vogel zou mij motiveren om de applicatie vaker te gebruiken.</p>
+		<likert ng-model="prototypeSurveyAnswers.q2"></likert>
+		
+		<p>De vogel maakt de app leuker om te gebruiken voor mij.</p>
+		<likert ng-model="prototypeSurveyAnswers.q3"></likert>
+		
+		<input type="submit" value="Afronden" />
+	</form>
+</div>

@@ -1,0 +1,17 @@
+<div id="main">
+	<h1>Survey</h1>
+
+	<p>Zou u onderstaande vragenlijk willen invullen over de voorgaande quiz? De resultaten worden anoniem opgeslagen en zal alleen voor onderzoek worden gebruikt.</p>
+	<form name="quizSurvey" ng-submit="submitQuizSurvey()" class="cf">
+		<p>Ik waardeer de aanwezigheid van de vogel tijdens de quiz.</p>
+		<likert ng-model="quizSurveyAnswers.q1"></likert>
+		
+		<p>De vogel motiveert mij om harder na te denken over het antwoord.</p>
+		<likert ng-model="quizSurveyAnswers.q2"></likert>
+		
+		<p>De feedback van de vogel maakte de quiz voor mij leuker.</p>
+		<likert ng-model="quizSurveyAnswers.q3"></likert>
+		
+		<input type="submit" value="Doorgaan" />
+	</form>
+</div>

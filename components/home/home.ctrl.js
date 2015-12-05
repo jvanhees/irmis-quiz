@@ -1,3 +1,3 @@
-quiz.controller('HomeController', ['$scope', '$stateParams', '$state', function($scope, $stateParams, $state) {
-	
+quiz.controller('HomeCtrl', ['$scope', '$rootScope', '$stateParams', '$state', function($scope, $rootScope, $stateParams, $state) {
+
 }]);

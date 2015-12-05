@@ -40,12 +40,19 @@ a {
   text-decoration: none; }
 
 #header {
+  position: relative;
   background-color: #43C3D1;
   padding: 20px;
   color: #FFF;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
   #header a {
     color: #FFF; }
+  #header .progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #22818c; }
 
 #main {
   clear: both;
@@ -55,7 +62,7 @@ a {
   padding: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); }
 
-.button, .answer {
+.button, input[type="submit"], input[type="button"], .answer {
   display: block;
   padding: 20px;
   background-color: #43C3D1;
@@ -64,8 +71,9 @@ a {
   font-weight: bold;
   border-radius: 2px;
   cursor: pointer;
-  transition: background-color .2s; }
-  .button:hover, .answer:hover {
+  transition: background-color .2s;
+  border: none; }
+  .button:hover, input[type="submit"]:hover, input[type="button"]:hover, .answer:hover {
     background-color: #6cd0db; }
 
 .clear {
@@ -125,5 +133,17 @@ h1 {
   clear: both;
   float: right;
   background-color: #888; }
+
+.likert-container {
+  width: 100%;
+  margin-bottom: 20px; }
+  .likert-container .likert-option {
+    width: 20%;
+    float: left;
+    text-align: center;
+    font-size: 12px; }
+    .likert-container .likert-option input {
+      display: block;
+      margin: 5px auto; }
 
 /*# sourceMappingURL=main.css.map */
