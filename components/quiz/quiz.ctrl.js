@@ -1,4 +1,4 @@
-quiz.controller('QuizController', ['$scope', '$http', '$state', 'apiService', function($scope, $http, $state, api) {
+quiz.controller('QuizController', ['$scope', '$http', '$state', 'apiService', '$rootScope', function($scope, $http, $state, api, $rootScope) {
 	
 	$scope.questions;
 	$scope.count = 0;	
