@@ -11,11 +11,11 @@ angular.module('quiz')
 			console.log($scope);
 			
 			$scope.descriptions = [
-				'Heel erg mee eens',
-				'Gedeeltelijk mee eens',
-				'Niet mee eens of oneens',
-				'Gedeeltelijk mee oneens',
-				'Heel erg mee oneens'
+				'Helemaal oneens',
+				'Oneens',
+				'Noch eens, noch oneens',
+				'Eens',
+				'Helemaal eens'
 			];
 			
 			this.init = function(_element_, _ngModelCtrl_) {
