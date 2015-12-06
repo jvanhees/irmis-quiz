@@ -72,7 +72,8 @@ video {
   background-color: #FFF;
   margin: 20px auto;
   padding: 20px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  position: relative; }
 
 .button, input[type="submit"], input[type="button"], .answer {
   display: block;
@@ -122,12 +123,22 @@ video {
   background-color: #B71C1C;
   color: #5f0e0e; }
 
+.previous-answer {
+  text-align: center; }
+
 h1 {
   overflow: hidden; }
 
 .feedback-container {
-  max-width: 800px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  background-color: #FFF;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  display: block;
+  right: 20px;
+  padding: 20px; }
   .feedback-container p {
     background-color: #E8B878;
     padding: 30px;

@@ -8,6 +8,8 @@ quiz.controller('QuizController', ['$scope', '$http', '$state', 'apiService', '$
 	$scope.wrongStreak = 0;
 	$scope.correctStreak = 0;
 	$scope.correctAnswer;
+	$scope.showFeedback = false;
+	var ended = false;
 	
 	$scope.feedback = 'positive';
 	
@@ -16,8 +18,14 @@ quiz.controller('QuizController', ['$scope', '$http', '$state', 'apiService', '$
 			$scope.question = $scope.questions[val];
 			if(typeof($scope.question) == 'undefined'){
 				// No more questions or other error
-				$scope.endQuiz();
+				ended = true;
 			}
+		}
+	});
+	
+	$scope.$watch('showFeedback', function(val){
+		if(val == false && ended) {
+			$scope.endQuiz();
 		}
 	});
 	
@@ -71,6 +79,7 @@ quiz.controller('QuizController', ['$scope', '$http', '$state', 'apiService', '$
 		} else {
 			answerWrong();
 		}
+		$scope.showFeedback = true;
 	};
 	
 	$scope.endQuiz = function(){
