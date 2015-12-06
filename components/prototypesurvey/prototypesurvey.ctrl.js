@@ -5,11 +5,14 @@ quiz.controller('PrototypeSurveyController', ['$scope', '$stateParams', '$state'
 	$scope.prototypeSurveyAnswers.q1;
 	$scope.prototypeSurveyAnswers.q2;
 	$scope.prototypeSurveyAnswers.q3;
-	
+	$scope.submitted = false;
 	
 	$scope.submitPrototypeSurvey = function(){
-		api.savePrototype($scope.prototypeSurveyAnswers);
-		$state.go('finish');
+		$scope.submitted = true;
+		if($scope.prototypeSurvey.$valid){
+			api.savePrototype($scope.prototypeSurveyAnswers);
+			$state.go('finish');
+		}
 	};
 	
 }]);

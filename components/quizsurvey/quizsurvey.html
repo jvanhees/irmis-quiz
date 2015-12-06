@@ -4,13 +4,16 @@
 	<p>Zou u onderstaande vragenlijk willen invullen over de voorgaande quiz? De resultaten worden anoniem opgeslagen en zal alleen voor onderzoek worden gebruikt.</p>
 	<form name="quizSurvey" ng-submit="submitQuizSurvey()" class="cf">
 		<p>Ik waardeer de aanwezigheid van de vogel tijdens de quiz.</p>
-		<likert ng-model="quizSurveyAnswers.q1"></likert>
+		<p class="message" ng-show="quizSurvey.q1.$error.required && submitted">Gelieve deze vraag te beantwoorden.</p>
+		<likert name="q1" ng-required="true" ng-model="quizSurveyAnswers.q1"></likert>
 		
 		<p>De vogel motiveert mij om harder na te denken over het antwoord.</p>
-		<likert ng-model="quizSurveyAnswers.q2"></likert>
+		<p class="message" ng-show="quizSurvey.q2.$error.required && submitted">Gelieve deze vraag te beantwoorden.</p>
+		<likert name="q2" ng-required="true" ng-model="quizSurveyAnswers.q2"></likert>
 		
 		<p>De feedback van de vogel maakte de quiz voor mij leuker.</p>
-		<likert ng-model="quizSurveyAnswers.q3"></likert>
+		<p class="message" ng-show="quizSurvey.q3.$error.required && submitted">Gelieve deze vraag te beantwoorden.</p>
+		<likert name="q3" ng-required="true" ng-model="quizSurveyAnswers.q3"></likert>
 		
 		<input type="submit" value="Doorgaan" />
 	</form>

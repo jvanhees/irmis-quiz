@@ -58,6 +58,13 @@ video {
 	margin: 20px 0;
 }
 
+.message {
+	padding: 10px;
+	color: #FFF;
+	background-color: $red;
+	border-radius: 5px;
+}
+
 #header {
 	position: relative;
 	background-color: $blue;

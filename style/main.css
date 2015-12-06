@@ -45,6 +45,12 @@ p {
 video {
   margin: 20px 0; }
 
+.message {
+  padding: 10px;
+  color: #FFF;
+  background-color: #B71C1C;
+  border-radius: 5px; }
+
 #header {
   position: relative;
   background-color: #43C3D1;
